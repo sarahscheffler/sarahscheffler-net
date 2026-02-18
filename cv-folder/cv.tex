@@ -9,6 +9,7 @@
 \bibliographystyle{simple}
 \usepackage{xspace}
 \usepackage{hyperref}
+\usepackage{xurl}
 
 \newcommand{\ignore}[1]{}
 
@@ -22,15 +23,16 @@
                                   
 \begin{resume}
 
-\vspace{0.1in}
+%\vspace{0.1in}
 
 \section{CONTACT INFORMATION}  
 \vspace{0.1in}
-\textbf{Email:} \texttt{sscheffl@andrew.cmu.edu} \\
-\textbf{Website:} \texttt{https://sarahscheffler.net}
+\textbf{Website:} \texttt{https://sarahscheffler.net} \\
+\textbf{Email:} \texttt{sscheffl@cmu.edu} \\
+\textbf{Phone:} +1 412-438-8612
 
 \vspace{-0.25in}
-\section{POSITIONS HELD}  
+\section{ACADEMIC POSITIONS HELD}  
 \vspace{0.1in}
 
 \textbf{Carnegie Mellon University (CMU)} \\
@@ -74,6 +76,7 @@ September 2021 - August 2023
 
 \newcounter{citctr}
 \setcounter{citctr}{1}
+\edef\adequatetailoring{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\fraudethics{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\eeegroup{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\csamimprovements{[\arabic{citctr}]}\stepcounter{citctr}
@@ -83,7 +86,6 @@ September 2021 - August 2023
 \edef\turboikos{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\booligero{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\foregoneconclusion{[\arabic{citctr}]}\stepcounter{citctr}
-\edef\privateTranslation{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\AEC{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\pullingblocksJIP{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\devicefingerprinting{[\arabic{citctr}]}\stepcounter{citctr}
@@ -93,23 +95,28 @@ September 2021 - August 2023
 
 
 \begin{itemize}
+\item[\adequatetailoring] S.~Liu, S.~Scheffler. \\
+\emph{Adequately Tailoring Age Verification Regulations}. \\
+ACM Symposium on Computer Science and Law (ACM CS\&Law) 2026. \\
+\url{https://arxiv.org/abs/2601.20241}.
+
 \item[\fraudethics] M.~Xiao, A.~Sellars, S.~Scheffler. \\
-\emph{When Anti-Fraud Laws become a Barrier to Computer Security Research} \\
+\emph{When Anti-Fraud Laws become a Barrier to Computer Security Research}. \\
 ACM Symposium on Computer Science and Law (ACM CS\&Law) 2025. \\
 \url{https://arxiv.org/abs/2502.02767}.
 
 \item[\eeegroup] S.~Scheffler, J.~Mayer. \\
-\emph{Group Moderation under End-to-End Encryption} \\
+\emph{Group Moderation under End-to-End Encryption}. \\
 ACM Symposium on Computer Science and Law (ACM CS\&Law) 2024. \\
 \url{https://dl.acm.org/doi/abs/10.1145/3614407.3643704}.
 
 \item[\csamimprovements] S.~Scheffler, A.~Kulshrestha, J.~Mayer. \\
-\emph{Public Verification for Private Hash Matching} \\
+\emph{Public Verification for Private Hash Matching}. \\
 IEEE Security \& Privacy (IEEE S\&P) 2023. \\
 \url{https://ia.cr/2023/029}.
 
 \item[\eeesok] S.~Scheffler, J.~Mayer. \\
-\emph{Systematization of Knowledge: Content Moderation for End-to-End Encryption.} \\
+\emph{Systematization of Knowledge: Content Moderation for End-to-End Encryption}. \\
 Privacy Enhancing Technologies Symposium (PETS) 2023. \\
 \url{https://arxiv.org/abs/2303.03979}.
 
@@ -124,24 +131,19 @@ In ACM Symposium on Computer Science and Law (ACM CS\&Law) 2022. \\
 \url{https://arxiv.org/pdf/2206.01230}.
 
 \item[\turboikos] Y.~Gvili, J.~Ha, S.~Scheffler, M.~Varia, Z.~Yang, X.~Zhang. \\
-\emph{TurboIKOS: Improved Non-interactive Zero Knowledge with Sublinear Memory.} \\
+\emph{TurboIKOS: Improved Non-interactive Zero Knowledge with Sublinear Memory}. \\
 In Applied Cryptography and Network Security (ACNS) 2021. (Acceptance rate: 19.9\%) \\
 \url{https://ia.cr/2021/478}.
 
 \item[\booligero] Y.~Gvili, S.~Scheffler, M.~Varia. \\
-\emph{BooLigero: Improved Sublinear Zero Knowledge Proofs for Boolean Circuits.} \\
+\emph{BooLigero: Improved Sublinear Zero Knowledge Proofs for Boolean Circuits}. \\
 In Financial Crypto (FC) 2021.  (Acceptance rate: 24.2\%) \\
 \url{https://ia.cr/2021/121}.
 
 \item[\foregoneconclusion] S.~Scheffler M.~Varia. \\
-\emph{Protecting Cryptography against Compelled Self-Incrimination.} \\
+\emph{Protecting Cryptography against Compelled Self-Incrimination}. \\
 In USENIX Security 2021. (Acceptance rate: 18.7\%)\\
 \url{https://ia.cr/2020/862}.
-
-\item[\privateTranslation] T.~Morrison, S.~Scheffler, B.~Pal, A.~Viand. \\
-\emph{Private Outsourced Translation for Medical Data.} \\
-Book chapter in ``Protecting Privacy through Homomorphic Encryption'' (2021), pp.~107-116. \\
-\url{https://link.springer.com/chapter/10.1007/978-3-030-77287-1_7}.
 
 \item[\AEC] L.~Alcock, S.~Asif, J.~Bosboom, J.~Brunner, C.~Chen, E.~Demaine, R.~Epstein,
 A.~Hesterberg, L.~Hirschfeld, W.~Hu, J.~Lynch, S.~Scheffler, L.~Zhang. \\
@@ -175,13 +177,35 @@ In International Conference on Passive and Active Network Measurement 2018. (Acc
 \url{https://link.springer.com/chapter/10.1007/978-3-319-76481-8\_12}.
 \end{itemize}
 
+
+\section{BOOK CHAPTERS}
+\vspace{0.25in}
+
+\edef\privateTranslation{[\arabic{citctr}]}\stepcounter{citctr}
+
+\begin{itemize}
+\item[\privateTranslation] T.~Morrison, S.~Scheffler, B.~Pal, A.~Viand. \\
+\emph{Private Outsourced Translation for Medical Data}. \\
+Book chapter in ``Protecting Privacy through Homomorphic Encryption'' (2021), pp.~107-116. \\
+\url{https://link.springer.com/chapter/10.1007/978-3-030-77287-1_7}.
+\end{itemize}
+
+
+
+
+
 \section{PEER-REVIEWED NON-ARCHIVAL PAPERS NOT LISTED ABOVE}
 \vspace{0.25in}
 
+%\edef\avmeasuring{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\dfpgifct{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\conproageverif{[\arabic{citctr}]}\stepcounter{citctr}
 
 \begin{itemize}
+%\item[\avmeasuring] Y.~Lin, C.~Zhang, M.~Xiao, W.~Zhang, V.~Lieu, W.~Hu, L.F.~Cranor, S.~Scheffler. \\
+%\emph{Measuring User Responses to Online Age Verification} \\
+%In Privacy and Public Policy Conference 2026. \\
+
 \item[\dfpgifct] S.~Scheffler, G.~Sullivan. \\
 \emph{Human Rights Challenges and Directions for Hash-sharing Governance.} \\
 In Data for Policy Europe 2025. \\
@@ -198,37 +222,57 @@ In Workshop on Technology and Consumer Protection 2025. \\
 \section{MANUSCRIPTS}
 \vspace{0.25in}
 
+\edef\ageverifftc{[\arabic{citctr}]}\stepcounter{citctr}
+\edef\exploringav{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\synopsis{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\ageVerifPrimeTime{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\scramDeviations{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\autonomousWeapons{[\arabic{citctr}]}\stepcounter{citctr}
 \edef\bog{[\arabic{citctr}]}\stepcounter{citctr}
 
+
 \begin{itemize}
+\item[\ageverifftc] Y.~Lin, C.~Zhang, M.~Xiao, L.F.~Cranor, S.~Scheffler. \\
+\emph{User (Non-)Compliance with Age Verification: Preliminary Evidence from a Deceptive Web Experiment}. \\
+Tech report.
+Jan 2026.  \\
+\url{https://www.cs.cmu.edu/~sscheffl/docs/2026/AgeVerif2026.pdf}.
+
+\item[\exploringav] S.~Scheffler, S.~Liu. \\
+\emph{Exploring Privacy in ID-Based Age Verification Architectures}. \\
+Manuscript position paper for W3C/IAB Age Verification Workshop.
+Oct 2025. \\
+\url{https://datatracker.ietf.org/doc/slides-agews-paper-exploring-privacy-in-id-based-age-verification-architectures/}.
+
 \item[\synopsis] M.~Xiao, P.~Jain, M.~Gorelick, S.~Scheffler. \\
 \emph{Synopsis: Secure and private trend inference from encrypted semantic embeddings.} \\
-Manuscript.  \\
+Preprint.  
+May 2025. \\
 \url{https://arxiv.org/abs/2505.23880}.
 
 \item[\ageVerifPrimeTime] E.~Gaumond, F.~Fewer, S.~Scheffler, M.~Xiao, P.~D\'eziel, M.~Dupuis-Crane. \\
 \emph{Ready for Prime Time? Are Age Assurance Systems Sophisticated Enough to Verify Users' Age Without Breaching their Privacy Rights?} \\
-Manuscript.  \\
+Manuscript.  
+Sep 2024.  \\
 \url{https://www.cippic.ca/news/cippic-submision-on-age-assurance}.
 
 \item[\scramDeviations] T.~Reynolds, S.~Scheffler, D.J.~Weitzner, A.~Wu. \\
 \emph{Mind the Gap: Securely modeling cyber risk based on security deviations from a peer group.} \\
-Manuscript.  \\
+Manuscript.  
+Feb 2024. \\
 \url{https://arxiv.org/abs/2402.04166}.
 
 \item[\autonomousWeapons] S.~Scheffler, J.~Ostling. \\
 \emph{Dismantling False Assumptions about Autonomous Weapon Systems.} \\
-Manuscript.  \\
+Manuscript.  
+2019. \\
 Won 2nd place in the Student Paper Competition at the ACM CSLaw Student Paper Competition in 2019. \\
 \url{https://sarahscheffler.net/2019/Autonomous_Weapons_False_Assumptions.pdf}.
 
 \item[\bog] J.~Hennessey, S.~Scheffler, M.~Varia. \\
 \emph{On Resilient Password-Based Key Derivation Functions.} \\
-Manuscript.  \\
+Preprint.  
+2018. \\
 \url{https://sarahscheffler.net/diskcrypt/draft-2018-bog.pdf}.
 \end{itemize}
 
@@ -251,10 +295,16 @@ Manuscript.  \\
     The Skeletons in My Closet Are Styrofoam But It's Really None Of Your Business (Sep 2018) 
 
 
-\section{INTERVIEWS AND PRESS QUOTES}
+\section{PANELS, INTERVIEWS AND PRESS QUOTES}
 \vspace{0.25in}
 
 \begin{itemize}
+    \item Panelist at State of the Net 2026 for Panel: ``Verifying the Future: The Paxton Decision, Age Assurance, and the Next Phase of Online Safety''
+        (Feb 2026, \url{https://www.stateofthenet.org/sotn-26/}) \\
+    \item Panelist at Federal Trade Commission Age Verification Workshop for Panel 2: ``From Biometrics to Behavioral Signals: Age Verification Tools''
+        (Jan 2026, \url{https://www.ftc.gov/news-events/events/2026/01/age-verification-workshop}) \\
+    \item Moderator at Transforming Cybersecurity (University of Pittsburgh Workshop) for Panel: ``Perspectives on Risk'' 
+        (Aug 2025, \url{https://www.engineering.pitt.edu/contentassets/a07b5ba3dd1d451486d8083262b283bd/rba11-transforming\_cybersecurit.pdf} [sic]) \\
     \item Quoted in ``UK users are losing a key Apple security feature, raising questions about the future of privacy'' by Clare Duffy, CNN (Feb 2025,
         \url{https://www.cnn.com/2025/02/25/tech/apple-advanced-data-protection-uk-encryption/index.html}) \\
     %\item Interviewed by BU Debugged, titled, ``CS Research and Academia''' (Oct 2021) \\
@@ -264,7 +314,7 @@ Manuscript.  \\
 
 \section{PUBLIC TALKS}  
 \vspace{0.1in}
-Privacy Stories from our Everyday Lives -- Data Privacy Day at the Carnegie Library of Pittsburgh (Jan. 2025). \\
+Privacy Stories from our Everyday Lives -- Data Privacy Day at the Carnegie Library of Pittsburgh (Jan. 2026, 2025). \\
 
 \section{INVITED TALKS}
 \vspace{0.1in}
@@ -300,8 +350,10 @@ Carnegie Mellon University AI Seminar (Oct. 2019) \\
 Boston University CyberAlliance Seminar (Dec. 2018)
 
 \section{COURSES TAUGHT AT CMU}
-Privacy by Design Workshop \& Practicum (17-606 and 17-607; Fall 2024) \\
-Current Topics in Privacy Seminar (17-702/19-602/95-862; Fall 2024)
+Applied Methods for Technology-Policy Analysis (19-351; Spring 2026) \\
+Privacy Policy, Law, and Technology (17-333 / 17-733 / 19-608 / 95-818; Fall 2025) \\
+Privacy by Design Workshop \& Practicum (17-606 / 17-607; Fall 2024) \\
+Current Topics in Privacy Seminar (17-702 / 19-602 / 95-862; Fall 2024)
 
 %\section{REVIEW PANELS}
 %\vspace{0.1in}
@@ -310,9 +362,12 @@ Current Topics in Privacy Seminar (17-702/19-602/95-862; Fall 2024)
 \section{PROGRAM AND ETHICS COMMITTEES}
 \vspace{0.1in}
 
+\textbf{Program Committee Vice-Chair:} \\
+USENIX Security (2026) 
+
 \textbf{Conference Program Committee member:} \\
 USENIX Security (2025, 2023) \\
-ACM Computer Science and Law (2025, 2024) \\
+ACM Computer Science and Law (2026, 2025, 2024) \\
 IEEE Euro Security \& Privacy 2024 \\
 ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT) 2023
 
@@ -325,6 +380,7 @@ Generative AI + Law 2023 \\
 Workshop on Foundations of Computer Security 2023, 2021
 
 \textbf{External Reviewer:} \\
+CHI 2026 \\
 CRYPTO 2025 \\
 IEEE Security \& Privacy Magazine 2024 \\
 Eurocrypt 2024 \\
@@ -346,8 +402,9 @@ IEEE S\&P 2020
 
 \section{WORKSHOPS ORGANIZED}
 \vspace{0.1in}
-Workshop on Computer Science, Law, and Policy Pedagogy (Co-organizer: 2025) \\
-Privacy and Public Policy (Discussion lead: 2024, Planning committee and PC: 2025) \\
+Privacy and Public Policy Conference (Planning committe chair: 2025; Discussion lead: 2024) \\
+%Workshop on Computer Science, Law, and Policy Pedagogy (Co-organizer: 2025) \\
+CMU CyLab Robotics Security and Privacy Workshop (Co-organizer: 2025) \\
 ACM CS/Law Workshop for Junior Scholars (Co-chair: 2025, 2024) \\
 Privacy Enhancing Technology for the Public Interest (Co-organizer: 2023, 2022)
 
@@ -398,26 +455,26 @@ classes.  In 2017, 2018, and 2019, was a guest lecturer.  https://www.bu.edu/ler
 \vspace{0in}
     \begin{tabbing}
    \hspace{3in}\=  \hspace{1.63in}\= \kill % set up two tab positions
-    {\bf Assistant Staff} \>~~~~~~~~~~~~MIT Lincoln Laboratory \>~~~~~~~~~~~~~~~~~~~~~~~Sep. 2015 - June 2016\\                       
+    {\bf Assistant Staff} \>~~~~MIT Lincoln Laboratory \>~~~~~~~~~~~~~~~~~~~~~~~Sep. 2015 - June 2016\\                       
    \end{tabbing}\vspace{-30pt}      % suppress blank line after tabbing
     Worked in the Secure and Resilient Systems and Technology group within the Cybersecurity and Information Sciences division.  Assisted in the implementation and testing of a library that adds confidentiality and integrity guarantees to the Accumulo database, protecting it against a malicious server or sysadmin.
 
    \begin{tabbing}
    \hspace{3in}\=  \hspace{1.63in}\= \kill % set up two tab positions
-    {\bf Implementing Oblivious RAM} \>~~~~~~~~~~~~~MIT Lincoln Laboratory \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Summer 2015\\                       
+    {\bf Intern: Implementing Oblivious RAM} \>~~~~~MIT Lincoln Laboratory \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Summer 2015\\                       
    \end{tabbing}\vspace{-30pt}      % suppress blank line after tabbing
     Designed and implemented an Oblivious RAM for the Accumulo database in Java, to hide a querying client's access patterns from a malicious server as part of a larger project within the Secure and Resilient Systems and Technology group.
 
    \begin{tabbing}
    \hspace{2in}\=  \hspace{1.63in}\= \kill % set up two tab positions
-    {\bf Quantifying Latent Fingerprint Quality} \>~~~~~~~~~~~~~~~~~~~~~~~~~~The MITRE Corporation
-    and HMC  \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Fall 2014 - Spring 2015\\                       
+    {\bf Capstone: Evaluating Latent Fingerprints} \>~~~~~~~~~~~~~~~~~~~~~~~~~ MITRE Corporation
+    and HMC  \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Fall 2014 - Spring 2015\\                       
    \end{tabbing}\vspace{-30pt}      % suppress blank line after tabbing
     Worked on a team of four students to design, implement, and test a system that uses image processing and machine learning techniques to evaluate the suitability of crime scene fingerprint images for identification by Automated Fingerprint Identification Systems.
 
 	\begin{tabbing}
 	\hspace{3in}\=  \hspace{1.63in}\= \kill % set up two tab positions
-	{\bf Statistical Testing of Cryptographic Entropy Sources} \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~NIST 
+	{\bf Summer Undergrad Research: Testing Cryptographic Entropy Sources} \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~NIST 
  \>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Summer 2014\\      
 	\end{tabbing} \vspace{-30pt}
 	Worked with Dr.~Allen Roginsky in the Computer Security Division of the National Institute of Standards and Technology (NIST) to improve NIST's statistical tests for entropy sources in cryptographic random number generators.  Also made adjustments to the process for generating large primes for cryptography.
